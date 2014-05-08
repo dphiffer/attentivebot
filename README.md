@@ -10,7 +10,7 @@ Dependencies
 
 Installation
 ------------
-1. Copy `config-example.php` into `config.php`
+1. Rename `config-example.php` as `config.php` and open it in your text editor
 2. Change the `SCREEN_NAME` to something of your own choosing
 3. Using that screen name, sign into https://dev.twitter.com/ (i.e., don't use your personal account)
 4. Click on your user icon, choose [My Applications](https://apps.twitter.com/)
