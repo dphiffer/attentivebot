@@ -37,7 +37,7 @@ class AttentiveBot {
   
   function main() {
     $followers = $this->get_followers();
-    $created_threshold = date('Y-m-d H:i:s', time() - (60 * 60 * 24));
+    $created_threshold = date('Y-m-d H:i:s', strtotime('today'));
     $this->users_already_tweeted = $this->db->get_column("
       SELECT screen_name
       FROM tweets
@@ -184,9 +184,9 @@ class AttentiveBot {
         $cursor = $result->next_cursor_str;
       }
       // Be more economical with API limits
-      if (count($friends) > 399) {
-        break;
-      }
+      //if (count($friends) > 399) {
+      //  break;
+      //}
     }
     if (!empty($friends)) {
       $log_message .= ", " . count($friends) . " friends found";
