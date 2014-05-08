@@ -16,7 +16,7 @@ Installation
 4. Click on your user icon, choose [My Applications](https://apps.twitter.com/)
 5. Click [Create New App](https://apps.twitter.com/app/new)
 6. Click on your new application
-7. Look for "Access level" and click "modify app permissions"
+7. Look for "Access level" and click "modify app permissions" (you may be asked to enter and verify a phone number)
 8. Choose "Read, write, and direct messages"
 9. Click the "API Keys" tab, scroll down and click "Generate access token"
 10. Wait a moment, reload the page, then copy and paste the following values into your `config.php`:  
