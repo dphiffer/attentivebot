@@ -25,4 +25,4 @@ Installation
     * Access token
     * Access token secret
 11. Make sure `data` folder is writable by the web user
-12. Load up `index.php` in a web browser
+12. Load up `index.php` in a web browser (the page will reload itself; no cron job required!)
